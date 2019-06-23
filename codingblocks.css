@@ -1,0 +1,54 @@
+.navbar{
+    margin:0;
+    padding: 30px;
+    background-color: white;
+}
+
+.navbar > ul > li{
+    font-family: Calibri;          
+    font-size: 18px;
+    color:grey;
+    display: inline;
+    list-style: none;
+    margin-left:25px;
+    float: left;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+ul ul{
+    display: none;
+}
+
+.navbar li:hover {
+    color:red;
+} 
+
+li:hover > ul{
+    display:block;
+}
+#sidebar{
+    font-family : Calibri;
+    font-size:18px;
+    color: grey;
+    list-style: none;
+    background-color: black;
+    text-align: left;
+    padding: 15px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 130px;
+}
+
+.drop {
+font-family : Calibri;
+font-size:18px;
+color:grey;
+list-style: none;
+background-color: black;
+text-align: left;
+padding: 15px;
+font-weight: bold;
+margin-top: 22px;
+}
+
